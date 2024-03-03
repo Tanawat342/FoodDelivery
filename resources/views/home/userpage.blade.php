@@ -5,14 +5,13 @@
 		<!-- Basic Page Needs -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>FreshMart - Organic, Fresh Food, Farm Store HTML Template</title>
+		<title>Food Delivery</title>
 
-		<meta name="keywords" content="Organic, Fresh Food, Farm Store">
-		<meta name="description" content="FreshMart - Organic, Fresh Food, Farm Store HTML Template">
-		<meta name="author" content="tivatheme">
+		<meta name="keywords" content="Food Delivery">
+		<meta name="description" content="Food Delivery">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+		<link rel="shortcut icon" href="home/img/favicon.png" type="image/png">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -45,6 +44,7 @@
 			<!-- Main Content -->
             @include('home.content')
 
+			
 
 			<!-- Footer -->
             @include('home.footer')

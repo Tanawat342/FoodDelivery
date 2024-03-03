@@ -8,30 +8,30 @@
                     <div id="main-menu">
                         <ul class="menu">
                             <li class="dropdown">
-                                <a href="index.html" title="Homepage">Home</a>
+                                <a href="{{ url('') }}" title="Homepage">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="product-grid-left-sidebar.html" title="Product">Product</a>
                                 <div class="dropdown-menu">
                                     <ul>
                                         <li class="has-image">
-                                            <img src="img/product/product-category-1.png" alt="Product Category Image">
+                                            <img src="home/img/product/product-category-1.png" alt="Product Category Image">
                                             <a href="product-grid-left-sidebar.html" title="Vegetables">Vegetables</a>
                                         </li>
                                         <li class="has-image">
-                                            <img src="img/product/product-category-2.png" alt="Product Category Image">
+                                            <img src="home/img/product/product-category-2.png" alt="Product Category Image">
                                             <a href="product-grid-left-sidebar.html" title="Fruits">Fruits</a>
                                         </li>
                                         <li class="has-image">
-                                            <img src="img/product/product-category-3.png" alt="Product Category Image">
+                                            <img src="home/img/product/product-category-3.png" alt="Product Category Image">
                                             <a href="product-grid-left-sidebar.html" title="Bread">Bread</a>
                                         </li>
                                         <li class="has-image">
-                                            <img src="img/product/product-category-4.png" alt="Product Category Image">
+                                            <img src="home/img/product/product-category-4.png" alt="Product Category Image">
                                             <a href="product-grid-left-sidebar.html" title="Juices">Juices</a>
                                         </li>
                                         <li class="has-image">
-                                            <img src="img/product/product-category-5.png" alt="Product Category Image">
+                                            <img src="home/img/product/product-category-5.png" alt="Product Category Image">
                                             <a href="product-grid-left-sidebar.html" title="Tea and coffee">Tea and coffee</a>
                                         </li>
                                     </ul>
@@ -46,7 +46,7 @@
                     <!-- Logo -->
                     <div class="logo">
                         <a href="home-3.html">
-                            <img class="img-responsive" src="img/logo.png" alt="Logo">
+                            <img class="img-responsive" src="home/img/logo.png" alt="Logo">
                         </a>
                     </div>
 
@@ -77,16 +77,16 @@
                                     <tbody>
                                         <tr>
                                             <td class="product-image">
-                                                <a href="product-detail-left-sidebar.html">
-                                                    <img src="img/product/7.jpg" alt="Product">
+                                                <a href="้home/product-detail-left-sidebar.html">
+                                                    <img src="" alt="Product">
                                                 </a>
                                             </td>
                                             <td>
                                                 <div class="product-name">
-                                                    <a href="product-detail-left-sidebar.html">Organic Strawberry Fruits</a>
+                                                    <a href="้home/product-detail-left-sidebar.html"></a>
                                                 </div>
                                                 <div>
-                                                    2 x <span class="product-price">$28.98</span>
+                                                    <span class="product-price"></span>
                                                 </div>
                                             </td>
                                             <td class="action">
@@ -99,15 +99,15 @@
                                         <tr>
                                             <td class="product-image">
                                                 <a href="product-detail-left-sidebar.html">
-                                                    <img src="img/product/6.jpg" alt="Product">
+                                                    <img src="" alt="Product">
                                                 </a>
                                             </td>
                                             <td>
                                                 <div class="product-name">
-                                                    <a href="product-detail-left-sidebar.html">Organic Strawberry</a>
+                                                    <a href="product-detail-left-sidebar.html"></a>
                                                 </div>
                                                 <div>
-                                                    1 x <span class="product-price">$35.00</span>
+                                                     <span class="product-price"></span>
                                                 </div>
                                             </td>
                                             <td class="action">
@@ -119,14 +119,14 @@
 
                                         <tr class="total">
                                             <td>Total:</td>
-                                            <td colspan="2">$92.96</td>
+                                            <td colspan="2"></td>
                                         </tr>
 
                                         <tr>
                                             <td colspan="3">
                                                 <div class="cart-button">
-                                                    <a class="btn btn-primary" href="product-cart.html" title="View Cart">View Cart</a>
-                                                    <a class="btn btn-primary" href="product-checkout.html" title="Checkout">Checkout</a>
+                                                    <a class="btn btn-primary" href="home/product-cart.html" title="View Cart">View Cart</a>
+                                                    <a class="btn btn-primary" href="home/product-checkout.html" title="Checkout">Checkout</a>
                                                 </div>
                                             </td>
                                         </tr>
@@ -147,10 +147,10 @@
                                 <a href="#" title="Log in to your customer account"><i class="fa fa-cog"></i>My Account</a>
                             </div>
                             <div class="item">
-                                <a href="user-login.html" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
+                                <a href="home/user-login.html" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
                             </div>
                             <div class="item">
-                                <a href="user-register.html" title="Register Account"><i class="fa fa-user"></i>Register</a>
+                                <a href="home/user-register.html" title="Register Account"><i class="fa fa-user"></i>Register</a>
                             </div>
                             <div class="item">
                                 <a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
@@ -158,16 +158,12 @@
                             <div class="item">
                                 <!-- Language -->
                                 <div class="language switcher">
-                                    <a href="#" title="Language English" class="active"><img src="img/language-en.jpg" alt="Language English"></a>
-                                    <a href="#" title="Language French"><img src="img/language-fr.jpg" alt="Language French"></a>
-                                    <a href="#" title="Language Deutsch"><img src="img/language-de.jpg" alt="Language Deutsch"></a>
+                                    <a href="#" title="Language English" class="active"><img src="home/img/language-en.jpg" alt="Language English"></a>
                                 </div>
 
                                 <!-- Currency -->
                                 <div class="currency switcher">
                                     <a href="#" title="USD" class="active">USD</a>
-                                    <a href="#" title="EUR">EUR</a>
-                                    <a href="#" title="GBP">GBP</a>
                                 </div>
                             </div>
                         </div>
