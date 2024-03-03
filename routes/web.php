@@ -15,10 +15,13 @@ use App\Http\Controllers\HomeController;
 */
 
 
+Route::get('/', [HomeController::class, 'index']);
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard',
     function (){
         return view('dashboard');
     })->name('dashboard');
-
-Route::get('/', [HomeController::class, 'index']);
+    
 Route::get('/redirect', [HomeController::class, 'redirect']);
+
+Route::get('/product_details/{id}', [HomeController::class, 'product_details']);

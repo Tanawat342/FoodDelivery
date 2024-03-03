@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
-<head>
+    <head>
 		<!-- Basic Page Needs -->
+        <base href="/public">
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Food Delivery</title>
@@ -44,7 +44,7 @@
 			<!-- Main Content -->
             @include('home.content')
 
-			
+			@include('home.product')
 
 			<!-- Footer -->
             @include('home.footer')

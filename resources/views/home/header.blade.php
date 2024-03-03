@@ -68,7 +68,7 @@
                     <div class="block-cart dropdown">
                         <div class="cart-title">
                             <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-                            <span class="cart-count">2</span>
+                            <span class="cart-count">0</span>
                         </div>
 
                         <div class="dropdown-content">
@@ -144,16 +144,13 @@
                         </div>
                         <div class="dropdown-menu">
                             <div class="item">
-                                <a href="#" title="Log in to your customer account"><i class="fa fa-cog"></i>My Account</a>
+                                <a href="/user/profile" title="Log in to your customer account"><i class="fa fa-cog"></i>My Account</a>
                             </div>
                             <div class="item">
-                                <a href="home/user-login.html" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
+                                <a href="/login" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
                             </div>
                             <div class="item">
-                                <a href="home/user-register.html" title="Register Account"><i class="fa fa-user"></i>Register</a>
-                            </div>
-                            <div class="item">
-                                <a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
+                                <a href="/register" title="Register Account"><i class="fa fa-user"></i>Register</a>
                             </div>
                             <div class="item">
                                 <!-- Language -->
